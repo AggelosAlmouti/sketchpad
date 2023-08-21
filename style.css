@@ -16,10 +16,11 @@ body::-webkit-scrollbar {
 }
 
 .pad {
-    height: 256px;
-    width: 256px;
+    height: 400px;
+    width: 400px;
     border: 3px solid white;
-    border-radius: 10px;
+    border-radius: 5px;
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
 }
@@ -30,4 +31,17 @@ footer {
 
 .slider {
     margin: 20px;
+}
+
+button {
+    margin: 10px;
+    background-color: white;
+    border-radius: 3px;
+    border: 0;
+    font-weight: bold;
+    transition: transform 0.3s;
+}
+
+button:hover {
+    transform: translateY(-3px);
 }
